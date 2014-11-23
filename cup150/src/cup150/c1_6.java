@@ -1,3 +1,4 @@
+package cup150;
 
 public class c1_6 {
    static  public void  setZero(int[][] input){
