@@ -1,8 +1,10 @@
-package cup150;
+package cup150.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import cup150.chap1;
 
 public class testChap1 {
 

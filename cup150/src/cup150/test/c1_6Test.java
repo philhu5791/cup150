@@ -1,7 +1,10 @@
+package cup150.test;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import cup150.c1_6;
 
 
 public class c1_6Test {
