@@ -24,7 +24,7 @@ public class c2_5Test {
 	@Test
 	public void test() {
 		Node r=c2_5.addRecr(op1, op2,0);
-		Node.print(r);
+		gNode.print(r);
 		
 	}
 

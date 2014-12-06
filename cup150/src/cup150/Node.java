@@ -1,12 +1,46 @@
 package cup150;
 
 public class Node <T>{
+	public Node<T> parent;
 	public Node<T> next;
+	public Node<T> left;
+	public Node<T> right;
+	public boolean visit;
 	public T v;
 	
 	public Node(T i){
 		this.v=i;
 		this.next=null;
+		this.left=null;
+		this.right=null;
+		this.visit=false;
+		this.parent=null;
+	}
+	public Node(){
+		this.v=null;
+		this.next=null;
+		this.left=null;
+		this.right=null;
+		this.visit=false;
+	}
+	
+	public boolean noChild(){
+		if(this.left==null&&this.right==null){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	public void addRight(Node<T> j){
+		
+		this.right=j;
+		j.parent=this;
+	}
+	
+	public void addLeft(Node<T> j){
+		this.left=j;
+		j.parent=this;
 	}
 	
 	public void append(T j){

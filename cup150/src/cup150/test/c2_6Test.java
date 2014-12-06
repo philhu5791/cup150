@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class c2_6Test {
-Node<Character> head;
+gNode<Character> head;
 	@Before
 	public void setUp() throws Exception {
 		String test="FOLLOW UP";
